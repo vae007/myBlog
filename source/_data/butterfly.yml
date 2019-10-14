@@ -6,15 +6,16 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
+  Home: /blog/ || fa fa-home
   Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
+  Tags: /blog/tags/ || fa fa-tags
+  Categories: /blog/categories/ || fa fa-folder-open
+  Link: /blog/link/ || fa fa-link
+  About: /blog/about/ || fa fa-heart
+  Gallery: /blog/gallery || fa fa-heart
   List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+    - Music || /blog/music/ || fa fa-music
+    - Movie || /blog/movies/ || fa fa-film
 
 
 # Favicon
@@ -56,7 +57,7 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/jerryc127
+  fa fa-github: https://github.com/vae007/myBlog
   fa fa-rss: /atom.xml
 
 ####    search    ####
@@ -253,17 +254,17 @@ valine:
 
 #####     Footer Settings    ####
 # ------------------------------------
-since: 2018
+since: 2017
 
-footer_custom_text:
+footer_custom_text: Hi, welcome to my <a href="https://vae007.github.io/blog">blog</a>!
 
 footer_copyright:
   enable: true
 
 ICP:
-  enable: false
-  url: 
-  text: 
+  enable: true
+  url: http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action
+  text: 粵ICP備xxxx
   icon: /img/icp.png
 
 
@@ -292,7 +293,7 @@ Flink:
   name: Blog 名字： JerryC
   address: Blog 地址： https://jerryc.me/
   avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
+  info: Blog 簡介： 程序猿的日常
   comment: 如果需要交換友鏈,請留言
 
 # 打賞按鈕
@@ -300,10 +301,10 @@ reward:
   enable: true
   QR_code:
     - itemlist:
-        img: /img/wechat.jpg
+        img: /blog/img/wechat.jpg
         text: 微信
     - itemlist:
-        img: /img/alipay.jpg
+        img: /blog/img/alipay.jpg
         text: 支付寶
 
 # 推薦文章
@@ -423,7 +424,8 @@ hr:
 subtitle: 
   enable: true
   sub:
-    - 今日事&#44;今日畢
+    # - 程序猿&#44;的日常
+    - 程序猿的日常
     - Never put off till tomorrow what you can do today
 
 
@@ -432,7 +434,7 @@ subtitle:
 #-------------------------------------
 # 側邊欄顯示設置
 aside:
-  position: right # left or right
+  position: left # left or right
   card_author: true
   card_announcement: true
   card_recent_post: true
@@ -443,7 +445,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 感谢访问本站，若喜欢请收藏 ^_^
 
 # busuanzi count for PV / UV in site
 # 訪問人數
