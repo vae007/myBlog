@@ -6,16 +6,16 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: /blog/ || fa fa-home
+  Home: / || fa fa-home
   Archives: /archives/ || fa fa-archive
-  Tags: /blog/tags/ || fa fa-tags
-  Categories: /blog/categories/ || fa fa-folder-open
-  Link: /blog/link/ || fa fa-link
-  About: /blog/about/ || fa fa-heart
-  Gallery: /blog/gallery || fa fa-heart
+  Tags: /tags/ || fa fa-tags
+  Categories: /categories/ || fa fa-folder-open
+  Link: /link/ || fa fa-link
+  About: /about/ || fa fa-heart
+  Gallery: /gallery || fa fa-heart
   List||fa fa-list:
-    - Music || /blog/music/ || fa fa-music
-    - Movie || /blog/movies/ || fa fa-film
+    - Music || /music/ || fa fa-music
+    - Movie || /movies/ || fa fa-film
 
 
 # Favicon
@@ -57,7 +57,7 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/vae007/myBlog
+  fa fa-github: https://github.com/vae007
   fa fa-rss: /atom.xml
 
 ####    search    ####
@@ -259,7 +259,7 @@ valine:
 # ------------------------------------
 since: 2017
 
-footer_custom_text: Hi, welcome to my <a href="https://vae007.github.io/blog">blog</a>!
+footer_custom_text: Hi, welcome to my <a href="https://blog.wanglaoshi.net">blog</a>!
 
 footer_copyright:
   enable: true
@@ -291,13 +291,13 @@ qihu_site_verification:
 
 # 友情鏈接界面設置 
 Flink:
-  headline: 友情鏈接
-  info_headline: 我的Blog資料
-  name: Blog 名字： JerryC
-  address: Blog 地址： https://jerryc.me/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 程序猿的日常
-  comment: 如果需要交換友鏈,請留言
+  headline: 友情链接
+  info_headline: 我的Blog资料
+  name: My Name： Wang LaoShi
+  address: My Address： https://blog.wanglaoshi.net/
+  avatar: My Avatar： https://cdn.jsdelivr.net/gh/vae007/images@latest/img/avatar.png
+  info: My Introduction： 程序猿的日常
+  comment: 如需交换友链，请留言...
 
 # 打賞按鈕
 reward:
@@ -374,7 +374,7 @@ canvas_ribbon_piao:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.

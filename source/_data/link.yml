@@ -1,0 +1,13 @@
+class:
+  class_name: link
+  link_list:
+    1:
+      name: 戚典永
+      link: https://blog.xxx.com
+      avatar: https://cdn.xxxxx.top/avatar.png
+      descr: 被白骨精抓走XXX了
+    2:
+      name: 姚彦
+      link: https://www.xxxxxxcn/
+      avatar: https://xxxxx/avatar.png
+      descr: 这孩子在地球上消失了
